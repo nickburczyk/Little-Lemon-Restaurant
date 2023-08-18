@@ -4,5 +4,7 @@
   "terracotta": "#EE9972",
   "sandyBeach": "#FBDABB",
   "santorini": "#EDEFEE",
-  "black": "#333333"
+  "black": "#333333",
+  "white": "#FFFFFF",
+  "gray": "#6A6A6A"
 }

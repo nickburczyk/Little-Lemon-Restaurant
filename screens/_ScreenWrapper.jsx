@@ -19,7 +19,6 @@ const styles = StyleSheet.create({
   wrap: {
     flex: 1,
     width: '100%',
-    borderWidth: 1,
     alignItems: 'center'
   }
 })

@@ -24,7 +24,7 @@ export const Header = ({showAvatar}) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: colors.santorini,
+    backgroundColor: colors.white,
     flexDirection: 'row',
     width: '100%',
     padding: 25,
