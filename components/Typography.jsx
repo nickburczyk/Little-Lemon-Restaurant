@@ -1,9 +1,14 @@
 import React, { useMemo } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { Text } from 'react-native';
 import { Markazi, Karla } from '../util/fonts.json'
 import colors from '../colors.json'
 
-export const Typography = ({ type, color = colors.black, textAlign='', children}) => {
+export const Typography = ({ 
+  type, 
+  color = colors.black, 
+  textAlign = 'auto', 
+  children
+}) => {
   const fontStyle = useMemo(() => {
     switch (type) {
       case 'h1': return { fontFamily: Markazi[500], fontSize: 64 }
